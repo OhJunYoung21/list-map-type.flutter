@@ -1,0 +1,10 @@
+void main(){
+var mylist = [me, my, mine]
+print(mylist)
+print(mylist.runtimetype)
+print("${mylist[0]}goal is to get back")
+mylist[2] = you
+mylist[1] = us
+print(mylist)
+print(mylist.length)
+}
