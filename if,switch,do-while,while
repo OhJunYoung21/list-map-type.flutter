@@ -1,0 +1,49 @@
+void main(){
+var score = 95;
+if (score >= 90){
+print("good");
+}
+}
+
+void main(){
+var condition = 1;
+switch(condition){
+case 1:
+print("합격입니다")
+break;
+case2:
+print("애매합니다.")
+break;
+default:    //defulat문의 특징은 case문의 뒤에는 break라는 구문이 무조건 있어야 하는데 디폴트의 경우에는 그렇지 않아도 되다는점이다. 이점을 기억하는 것이 좋다.case문의 특징으로 기억할것.
+print("none");
+}
+
+void main(){
+var i=0;
+do{
+print("616523");
+}while(i!=0);  //while문의 조건을 보면 i=0이므로 조건과 맞지 않는다. 이때 조건과 맞지 않으니 실행되지 않겠지 라고 생각하면 오산이다. do 문이먼저 나왔으므로 한번은 실행되는 것이 do-while문의 특징.
+
+}
+void main(){
+int score = null;
+score ??= 523;  //score에 null이 지정되어있는 경우 ??=를 사용해서 새로운값을 score라는 변수에 넣어줄수 있다.
+
+print(score);
+}
+
+void main(){
+for(i=0;i<10;i++){
+if(i==4);  //i가 4가 되는 경우에 continue를 써서 점프해 버리는 문법이다.
+continue;
+print(i)
+}
+
+void main(){
+while(true){
+break;
+print("0616"); //true가 있으니까 당연히 실행될거라 생각하면 오산이다. print 명령문앞에 break(깨서 나오다)가 있으므로 프린트문은 실행되지 않는다.
+}
+}
+
+
